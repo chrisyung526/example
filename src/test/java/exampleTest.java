@@ -5,6 +5,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+@SpringBootTest
 public class exampleTest {
 	
   @Test
@@ -13,7 +14,6 @@ public class exampleTest {
   }
 	
   @Test
-  public void applicationContextTest() {
-    HelloWorldApplication.main(new String[] {});
+  public void contextLoads() {
   }
 }
