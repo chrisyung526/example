@@ -15,4 +15,5 @@ public class exampleTest {
   @Test
   public void testMain() {
     HelloWorldApplication.main(new String[] {});
+  }
 }
