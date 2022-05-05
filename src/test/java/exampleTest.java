@@ -3,6 +3,7 @@ import static org.junit.Assert.*;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -13,7 +14,7 @@ import org.junit.runner.RunWith;
 public class exampleTest {
   private HelloWorldApplication app;
 
-  @BeforeClass
+  @Before
   public void setup() {
 	app = new HelloWorldApplication();
   }
