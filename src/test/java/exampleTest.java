@@ -17,7 +17,7 @@ public class exampleTest {
   @Test
   public void helloWorld() {
 	HelloWorldApplication app = new HelloWorldApplication();
-	assertTrue(app.helloWorld());	  
+	assertTrue(app.helloWorld()=="Hello World! Updated by Chris Yung.");	  
   }
 	
   @Test
