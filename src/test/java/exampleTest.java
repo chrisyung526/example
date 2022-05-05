@@ -15,6 +15,11 @@ public class exampleTest {
   }
 	
   @Test
+  public void helloWorld() {
+	assertTrue(HelloWorldApplication.helloWorld());	  
+  }
+	
+  @Test
   public void main() {
     HelloWorldApplication.main(new String[] {});
     assertTrue(true);
