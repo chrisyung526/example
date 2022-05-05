@@ -15,6 +15,6 @@ public class exampleTest {
   @Test
   public void main() {
     HelloWorldApplication.main(new String[] {});
-    assertTrue(true, "silly assertion to be compliant with Sonar");
+    assertTrue(true);
   }
 }
