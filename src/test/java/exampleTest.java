@@ -11,4 +11,8 @@ public class exampleTest {
   public void testMethod() {
     assertTrue(true);
   }
+	
+  @Test
+  public void testMain() {
+    HelloWorldApplication.main(new String[] {});
 }
