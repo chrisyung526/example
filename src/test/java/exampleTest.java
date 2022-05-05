@@ -11,4 +11,9 @@ public class exampleTest {
   public void testMethod() {
     assertTrue(true);
   }
+	
+  @Test
+  public void main() {
+      assertTrue(true);
+   }
 }
