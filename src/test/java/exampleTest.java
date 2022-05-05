@@ -5,7 +5,9 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
 public class exampleTest {
 	
@@ -21,8 +23,6 @@ public class exampleTest {
   }
 	
   @Test
-  public void main() {
-    HelloWorldApplication.main(new String[] {});
-    assertTrue(true);
+  public void contextLoads() {
   }
 }
