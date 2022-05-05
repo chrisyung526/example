@@ -14,6 +14,6 @@ public class exampleTest {
 	
   @Test
   public void applicationContextTest() {
-    mainApp.main(new String[] {});
+    HelloWorldApplication.main(new String[] {});
   }
 }
