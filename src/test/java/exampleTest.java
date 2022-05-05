@@ -11,6 +11,12 @@ import org.junit.runner.RunWith;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class exampleTest {
+  private HelloWorldApplication app;
+
+  @Before
+  public void setup() {
+	app = new HelloWorldApplication();
+  }
 	
   @Test
   public void testMethod() {
@@ -19,8 +25,8 @@ public class exampleTest {
 	
   @Test
   public void helloWorld() {
-	HelloWorldApplication app = new HelloWorldApplication();
-	assertTrue(app.helloWorld()=="Hello World! Updated by Chris Yung.");	  
+	string result = app.helloWorld();
+	assertEquals("Hello World! Updated by Chris Yung.", result);
   }
 	
   @Test
