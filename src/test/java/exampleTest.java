@@ -16,7 +16,8 @@ public class exampleTest {
 	
   @Test
   public void helloWorld() {
-	assertTrue(HelloWorldApplication.helloWorld());	  
+	HelloWorldApplication app = new HelloWorldApplication();
+	assertTrue(app.helloWorld());	  
   }
 	
   @Test
