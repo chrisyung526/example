@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 public class exampleTest {
   private HelloWorldApplication app;
 
-  @Before
+  @BeforeClass
   public void setup() {
 	app = new HelloWorldApplication();
   }
@@ -25,7 +25,7 @@ public class exampleTest {
 	
   @Test
   public void helloWorld() {
-	string result = app.helloWorld();
+	String result = app.helloWorld();
 	assertEquals("Hello World! Updated by Chris Yung.", result);
   }
 	
