@@ -13,7 +13,7 @@ public class exampleTest {
   }
 	
   @Test
-  public void main() {
-      assertTrue(true);
-   }
+  public void applicationContextTest() {
+    mainApp.main(new String[] {});
+  }
 }
